@@ -68,15 +68,22 @@ body {
     align-items: center;
 }
 
+
 .image-box {
+    /* border: 1px solid red; */
     width: 15%;
+    height: 100%;
     text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
-    img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
 
 .about {
     height: 100%;
